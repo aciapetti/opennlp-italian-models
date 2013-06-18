@@ -1,5 +1,5 @@
-opennlp-italian-models
-======================
+opennlp-italian-models project
+==============================
 
 PROJECT SCOPE
 -------------------------
@@ -28,7 +28,7 @@ TAGSET
 -------------------------
 
 To train the POSTagger models we have defined a tag dictionary, fitted for the italian language, that is a subset of the Tanl tag dictionary, a standard tagset implementation, compliant with the EAGLES international standards. See [3] for a definition of the original Tanl tagset.
-The customized version of the tag dictionary, used for annotating the corpora, and that the POS Tagger will produce on italian sentences, is available inside the project, (openNLP-it/lang/it/pos/tagsDictionaryIt.txt).
+The customized version of the tag dictionary, used for annotating the corpora, and that the POS Tagger will produce on italian sentences, is available inside the project, in the folder lang/it/pos, with the name tagsDictionaryIt.txt.
 
 
 ACCURACY
@@ -40,9 +40,9 @@ OpenNLP evaluator extimated we achieved the following results:
   - Tokenizer Precision: 99%
 
 The complete evaluation reports are avalilable inside the project under the following folders: 
-openNLP-it/lang/it/pos/data/pos-maxent
-openNLP-it/lang/it/pos/data/pos-perceptron
-openNLP-it/lang/it/token/data
+  - lang/it/pos/data/pos-maxent
+  - lang/it/pos/data/pos-perceptron
+  - lang/it/token/data
 
 
 LICENSE
@@ -59,8 +59,8 @@ REFERENCES
 http://opennlp.apache.org/documentation/1.5.3/manual/opennlp.html
 
 [2] Corpora shared with different licenses from the University of Bologna,
-http://wacky.sslmit.unibo.it/doku.php?id=corpora#italian
-http://wacky.sslmit.unibo.it/doku.php?id=download
+  - Corpora description: http://wacky.sslmit.unibo.it/doku.php?id=corpora#italian
+  - Corpora download: http://wacky.sslmit.unibo.it/doku.php?id=download
 
 [3] Tanl tagset definition (fitted for italian language),
 http://medialab.di.unipi.it/wiki/Tanl_POS_Tagset
