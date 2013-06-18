@@ -8,7 +8,7 @@ This project collects documentation and models for natural language processing w
 
 The models created are:
   - Maxent POS Tagger
-  - Perceptron POSTtagger 
+  - Perceptron POS Tagger 
   - Sentence Detector
   - Tokenizer
 
@@ -18,7 +18,7 @@ For documentation and explanation of the role and use of each model, please see 
 CORPORA AND TRAINING SETS
 -------------------------
 
-As training sets for POSTagger and Tokenizer models we have used a big annotated corpus, taken from the italian version of Wikipedia and annotated with a semi-automatic process.
+As training sets for the POS Tagger and Tokenizer models we have used a big annotated corpus, taken from the italian version of Wikipedia and annotated with a semi-automatic process.
 The corpus has been made available with an open source license by the University of Bologna (thanks to them for sharing it); see [2] for a reference to the page, where the corpus is shared.
 To train the Sentence Detector Models we have used a documents with 1500 sentences annotated manually, taken from italian Wikipedia, too.
 All the models have been trained with the OpenNLP training tools available in version 1.5.3.
@@ -27,19 +27,20 @@ All the models have been trained with the OpenNLP training tools available in ve
 TAGSET
 -------------------------
 
-To train the POSTagger models we have defined a tag dictionary, fitted for the italian language, that is a subset of the Tanl tag dictionary, a standard tagset implementation, compliant with the EAGLES international standards. See [3] for a definition of the original Tanl tagset.
+To train the POS Tagger models we have defined a tag dictionary, fitted for the italian language, that is a subset of the Tanl tag dictionary, a standard tagset implementation, compliant with the EAGLES international standards. See [3] for a definition of the original Tanl tagset.
 The customized version of the tag dictionary, used for annotating the corpora, and that the POS Tagger will produce on italian sentences, is available inside the project, in the folder lang/it/pos, with the name tagsDictionaryIt.txt.
 
 
 ACCURACY
 -------------------------
 
-To test the accuracy of the POS Tagger and Tokenizer models we have used a "uniform" test corpora, taken from the italian version of Wikipedia (but completely disjointed from the training corpora).
+To test the accuracy of the POS Tagger and Tokenizer models we have used a "uniform" test corpora, taken from the italian version of Wikipedia (but completely disjointed from the training corpus).
+
 OpenNLP evaluator extimated we achieved the following results:
   - POS Maxent and Perceptron accuracy: 97.56%
   - Tokenizer Precision: 99%
 
-The complete evaluation reports are avalilable inside the project under the following folders: 
+The complete evaluation reports are available inside the project under the following folders: 
   - lang/it/pos/data/pos-maxent
   - lang/it/pos/data/pos-perceptron
   - lang/it/token/data
@@ -48,7 +49,7 @@ The complete evaluation reports are avalilable inside the project under the foll
 LICENSE
 -------------------------
 
-The OpenNLP models for italian language are released under an Apache Licence, version 2.0
+The OpenNLP models for the italian language are released under an Apache Licence, version 2.0
 (http://www.apache.org/licenses/LICENSE-2.0.html).
 
 
