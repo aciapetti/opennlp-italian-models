@@ -1,0 +1,107 @@
+﻿B	avverbio	
+BN	avverbio di negazione
+CC	congiunzione coordinativa
+CS	congiunzione subordinativa
+DD	determinante dimostrativo
+DE	determinante esclamativo
+DI	determinante indefinito
+DQ	determinante interrogativo
+DR	determinante relativo
+E	preposizioni
+EA	preposizione articolata
+FB	punteggiatura bilanciata (parentesi tonde, doppie virgolette, ecc.)
+FC	punteggiatura di delimitazione dei periodi (. - : ;)
+FF	virgola, trattino, omissis (, ... -)
+FS	punteggiatura di delimitazione delle frasi (. ? ! ...)
+I	interiezione
+N	aggettivo numerale cardinale
+PC	particella pronominale clitica
+PD	pronome dimostrativo
+PE 	pronome personale
+PI	pronome indefinito
+PP	pronome possessivo
+PQ	pronome interrogativo
+PR	pronome relativo
+RD	articolo determinativo
+RI	articolo indeterminativo
+T	pre-determinante
+SA	abbreviazione
+SP	nome proprio
+XH	Hashtag Twitter (#nlp)
+XM	Menzione Twitter (@obama)
+XE	Emoticon (smiley :-))
+XX	Classi residuali (formule, parole non classificate, altri simboli alfabetici, ecc.)
+
+Ss	S num=s		nome comune singolare
+Sp	S num=p		nome comune plurale
+Sn	S num=n		nome comune  neutro (non specificabile)
+As	A num=s		aggettivo qualificativo singolare
+Ap	A num=p		aggettivo qualificativo plurale
+An	A num=n		aggettivo qualificativo neutro (non specificabile)
+APs	AP num=s	aggettivo possessivo singolare
+APp	AP num=p	aggettivo possessivo plurale
+APn	AP num=n	aggettivo possessivo neutro (non specificabile)
+NOs	NO num=s	aggettivo numerale ordinale	singolare
+NOp	NO num=p	aggettivo numerale ordinale	plurale
+NOn	NO num=n	aggettivo numerale ordinale	neutro (non specificabile)
+SWs	SW num=s	sostantivo o nome straniero	singolare
+SWp	SW num=p	sostantivo o nome straniero	plurale
+SWn	SW num=n	sostantivo o nome straniero neutro (non specificabile)
+
+
+Vip	V mod=i ten=p per!=3		verbo indicativo presente
+Vip3	V mod=i ten=p per=3		verbo indicativo presente 3° persona
+Vii	V mod=i ten=i per!=3		verbo indicativo imperfetto 
+Vii3	V mod=i ten=i per=3		verbo indicativo imperfetto 3° persona
+Vis	V mod=i ten=s per!=3		verbo indicativo passato remoto
+Vis3	V mod=i ten=s per=3		verbo indicativo passato remoto 3° persona
+Vif	V mod=i ten=f per!=3		verbo indicativo futuro
+Vif3	V mod=i ten=f per=3		verbo indicativo futuro 3° persona
+Vcp	V mod=c ten=p per!=3		verbo congiuntivo presente
+Vcp3	V mod=c ten=p per=3		verbo congiuntivo presente 3° persona
+Vci	V mod=c ten=i per!=3  		verbo congiuntivo imperfetto
+Vci3	V mod=c ten=i per=3		verbo congiuntivo imperfetto 3° persona
+Vdp	V mod=d ten=p per!=3		verbo condizionale presente
+Vdp3	V mod=d ten=p per=3		verbo condizionale presente 3° persona
+Vg	V mod=g				verbo gerundio
+Vp	V mod=p 			verbo participio
+Vf	V mod=f 			verbo infinito
+Vm	V mod=m				verbo imperativo
+
+VAip	VA mod=i ten=p per!=3		verbo ausiliario indicativo presente
+VAip3	VA mod=i ten=p per=3		verbo ausiliario indicativo presente 3° persona
+VAii	VA mod=i ten=i per!=3		verbo ausiliario indicativo imperfetto
+VAii3	VA mod=i ten=i per=3		verbo ausiliario indicativo imperfetto 3° persona
+VAis	VA mod=i ten=s per!=3		verbo ausiliario indicativo passato remoto
+VAis3	VA mod=i ten=s per=3		verbo ausiliario indicativo passato remoto 3° persona
+VAif	VA mod=i ten=f per!=3		verbo ausiliario indicativo futuro
+VAif3	VA mod=i ten=f per=3		verbo ausiliario indicativo futuro 3° persona
+VAcp	VA mod=c ten=p per!=3		verbo ausiliario congiuntivo presente
+VAcp3	VA mod=c ten=p per=3		verbo ausiliario congiuntivo presente 3° persona
+VAci	VA mod=c ten=i per!=3		verbo ausiliario congiuntivo imperfetto
+VAci3	VA mod=c ten=i per=3		verbo ausiliario congiuntivo imperfetto 3° persona
+VAdp	VA mod=d ten=p per!=3		verbo ausiliario condizionale presente
+VAdp3	VA mod=d ten=p per=3		verbo ausiliario condizionale presente 3° persona
+VAg	VA mod=g			verbo ausiliario gerundio
+VAp	VA mod=p 			verbo ausiliario participio
+VAf	VA mod=f 			verbo ausiliario infinito
+VAm	VA mod=m 			verbo ausiliario imperativo
+
+VMip	VM mod=i ten=p per!=3		verbo modale indicativo presente
+VMip3	VM mod=i ten=p per=3		verbo modale indicativo presente 3° persona
+VMii	VM mod=i ten=i per!=3		verbo modale indicativo imperfetto
+VMii3	VM mod=i ten=i per=3		verbo modale indicativo imperfetto 3° persona
+VMis	VM mod=i ten=s per!=3		verbo modale indicativo passato remoto
+VMis3	VM mod=i ten=s per=3		verbo modale indicativo passato remoto 3° persona
+VMif	VM mod=i ten=f per!=3		verbo modale indicativo futuro
+VMif3	VM mod=i ten=f per=3		verbo modale indicativo futuro 3° persona
+VMcp	VM mod=c ten=p per!=3		verbo modale congiuntivo presente
+VMcp3	VM mod=c ten=p per=3		verbo modale congiuntivo presente 3° persona
+VMci	VM mod=c ten=i per!=3		verbo modale congiuntivo imperfetto
+VMci3	VM mod=c ten=i per=3		verbo modale congiuntivo imperfetto 3° persona
+VMdp	VM mod=d ten=p per!=3		verbo modale condizionale presente
+VMdp3	VM mod=d ten=p per=3		verbo modale condizionale presente 3° persona
+VMg	VM mod=g			verbo modale gerundio
+VMp	VM mod=p 			verbo modale participio
+VMf	VM mod=f 			verbo modale infinito
+VMm	VM mod=m 			verbo modale imperativo

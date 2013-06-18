@@ -1,0 +1,6 @@
+Loading Tokenizer model ... done (1.692s)
+Evaluating ... done
+
+Precision: 0.9981258507921538
+Recall: 0.9967609814078877
+F-Measure: 0.9974429491892151
