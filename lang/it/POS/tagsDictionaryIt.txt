@@ -1,4 +1,4 @@
-B  adverb
+B   adverb
 BN	negation adverb
 CC	coordinate conjunction
 CS	subordinate conjunction
@@ -7,14 +7,14 @@ DE	exclamative determiner
 DI	indefinite determiner
 DQ	interrogative determiner
 DR	relative determiner
-E	preposition
+E	  preposition
 EA	articulated preposition
 FB	balanced punctuation (round brackets, double quotes, etc.)
 FC	clause boundary punctuation (. - : ;)
 FF	comma, dash, omissis (, ... -)
 FS	sentence boundary punctuation (. ? ! ...)
-I	interjection
-N	cardinal number
+I	  interjection
+N	  cardinal number
 PC	clitic pronoun
 PD	demonstrative pronoun
 PE 	personal pronoun
@@ -24,7 +24,7 @@ PQ	interrogative pronoun
 PR	relative pronoun
 RD	determinative article
 RI	indeterminative article
-T	predeterminer
+T 	predeterminer
 SA	abbreviation
 SP	proper noun
 XH	hashtag twitter (#nlp)
@@ -49,24 +49,24 @@ SWp	SW num=p	plural foreign name
 SWn	SW num=n	underspecified foreign name
 
 
-Vip	V mod=i ten=p per!=3		main verb indicative present, other than 3° person
-Vip3	V mod=i ten=p per=3		main verb indicative present, 3° person
-Vii	V mod=i ten=i per!=3		main verb indicative imperfect, other than 3° person
-Vii3	V mod=i ten=i per=3		main verb indicative imperfect, 3° person
-Vis	V mod=i ten=s per!=3		main verb indicative past, other than 3° person
-Vis3	V mod=i ten=s per=3		main verb indicative past, 3° person
-Vif	V mod=i ten=f per!=3		main verb indicative future, other than 3° person
-Vif3	V mod=i ten=f per=3		main verb indicative future, 3° person
-Vcp	V mod=c ten=p per!=3		main verb conjunctive present, other than 3° person
-Vcp3	V mod=c ten=p per=3		main verb conjunctive present, 3° person
-Vci	V mod=c ten=i per!=3  		main verb conjunctive imperfect, other than 3° person
-Vci3	V mod=c ten=i per=3		main verb conjunctive imperfect, 3° person
-Vdp	V mod=d ten=p per!=3		main verb conditional present, other than 3° person
-Vdp3	V mod=d ten=p per=3		main verb conditional present, 3° person
-Vg	V mod=g				main verb gerundive
-Vp	V mod=p 			main verb participle
-Vf	V mod=f 			main verb infinite
-Vm	V mod=m				main verb imperative
+Vip 	V mod=i ten=p per!=3	 	main verb indicative present, other than 3° person
+Vip3	V mod=i ten=p per=3		  main verb indicative present, 3° person
+Vii	  V mod=i ten=i per!=3		main verb indicative imperfect, other than 3° person
+Vii3	V mod=i ten=i per=3	  	main verb indicative imperfect, 3° person
+Vis	  V mod=i ten=s per!=3		main verb indicative past, other than 3° person
+Vis3	V mod=i ten=s per=3	  	main verb indicative past, 3° person
+Vif	  V mod=i ten=f per!=3		main verb indicative future, other than 3° person
+Vif3	V mod=i ten=f per=3		  main verb indicative future, 3° person
+Vcp	  V mod=c ten=p per!=3		main verb conjunctive present, other than 3° person
+Vcp3	V mod=c ten=p per=3	  	main verb conjunctive present, 3° person
+Vci 	V mod=c ten=i per!=3 		main verb conjunctive imperfect, other than 3° person
+Vci3	V mod=c ten=i per=3		  main verb conjunctive imperfect, 3° person
+Vdp 	V mod=d ten=p per!=3		main verb conditional present, other than 3° person
+Vdp3	V mod=d ten=p per=3	  	main verb conditional present, 3° person
+Vg  	V mod=g			          	main verb gerundive
+Vp	  V mod=p 		          	main verb participle
+Vf	  V mod=f 		          	main verb infinite
+Vm	  V mod=m			          	main verb imperative
 
 VAip	VA mod=i ten=p per!=3		auxiliary verb indicative present, other than 3° person
 VAip3	VA mod=i ten=p per=3		auxiliary verb indicative present, 3° person
@@ -78,14 +78,14 @@ VAif	VA mod=i ten=f per!=3		auxiliary verb indicative future, other than 3° per
 VAif3	VA mod=i ten=f per=3		auxiliary verb indicative future, 3° person
 VAcp	VA mod=c ten=p per!=3		auxiliary verb conjunctive present, other than 3° person
 VAcp3	VA mod=c ten=p per=3		auxiliary verb conjunctive present, 3° person
-VAci	VA mod=c ten=i per!=3  		auxiliary verb conjunctive imperfect, other than 3° person
+VAci	VA mod=c ten=i per!=3  	auxiliary verb conjunctive imperfect, other than 3° person
 VAci3	VA mod=c ten=i per=3		auxiliary verb conjunctive imperfect, 3° person
 VAdp	VA mod=d ten=p per!=3		auxiliary verb conditional present, other than 3° person
 VAdp3	VA mod=d ten=p per=3		auxiliary verb conditional present, 3° person
-VAg	VA mod=g			auxiliary verb gerundive
-VAp	VA mod=p 			auxiliary verb participle
-VAf	VA mod=f 			auxiliary verb infinite
-VAm	VA mod=m			auxiliary verb imperative
+VAg	VA mod=g			            auxiliary verb gerundive
+VAp	VA mod=p 		            	auxiliary verb participle
+VAf	VA mod=f 		            	auxiliary verb infinite
+VAm	VA mod=m		            	auxiliary verb imperative
 
 
 VMip	VM mod=i ten=p per!=3		modal verb indicative present, other than 3° person
@@ -98,11 +98,11 @@ VMif	VM mod=i ten=f per!=3		modal verb indicative future, other than 3° person
 VMif3	VM mod=i ten=f per=3		modal verb indicative future, 3° person
 VMcp	VM mod=c ten=p per!=3		modal verb conjunctive present, other than 3° person
 VMcp3	VM mod=c ten=p per=3		modal verb conjunctive present, 3° person
-VMci	VM mod=c ten=i per!=3  		modal verb conjunctive imperfect, other than 3° person
+VMci	VM mod=c ten=i per!=3  	modal verb conjunctive imperfect, other than 3° person
 VMci3	VM mod=c ten=i per=3		modal verb conjunctive imperfect, 3° person
 VMdp	VM mod=d ten=p per!=3		modal verb conditional present, other than 3° person
 VMdp3	VM mod=d ten=p per=3		modal verb conditional present, 3° person
-VMg	VM mod=g			modal verb gerundive
-VMp	VM mod=p 			modal verb participle
-VMf	VM mod=f 			modal verb infinite
-VMm	VM mod=m			modal verb imperative
+VMg	VM mod=g		            	modal verb gerundive
+VMp	VM mod=p 		            	modal verb participle
+VMf	VM mod=f 		            	modal verb infinite
+VMm	VM mod=m		            	modal verb imperative
